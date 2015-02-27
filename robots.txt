@@ -1,0 +1,26 @@
+User-agent: Baiduspider
+Disallow: /404.html
+User-agent: Sosospider
+Disallow: /404.html
+User-agent: sogou spider
+Disallow: /404.html
+User-agent: YodaoBot
+Disallow: /404.html
+User-agent: Googlebot
+Disallow: /404.html
+User-agent: Bingbot
+Disallow: /404.html
+User-agent: Slurp
+Disallow: /404.html
+User-agent: MSNBot
+Disallow: /404.html
+User-agent: googlebot-image
+Disallow: /404.html
+User-agent: googlebot-mobile
+Disallow: /404.html
+User-agent: yahoo-blogs/v3.9
+Disallow: /404.html
+User-agent: psbot
+Disallow: /404.html
+User-agent: *
+Disallow: /404.html
