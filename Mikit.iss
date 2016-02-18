@@ -45,5 +45,10 @@ Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescrip
 
 [Registry]
 Root: HKCR; Subkey: "Directory\shell\{#MyAppName}"; ValueType: string; ValueName: "Icon"; ValueData: "{app}\nw.exe"; Flags: uninsdeletekey
-Root: HKCR; Subkey: "Directory\shell\{#MyAppName}"; ValueType: string; ValueName: "MUIVerb"; ValueData: "使用 {#MyAppName} 打开"; Flags: uninsdeletekey
-Root: HKCR; Subkey: "Directory\shell\{#MyAppName}\command"; ValueType: expandsz; ValueData: """{app}\nw.exe"" ""%1"""; Flags: uninsdeletekey
+Root: HKCR; Subkey: "Directory\shell\{#MyAppName}"; ValueType: string; ValueName: "MUIVerb"; ValueData: "使用 {#MyAppName} 新建或打开"; Flags: uninsdeletekey
+Root: HKCR; Subkey: "Directory\shell\{#MyAppName}\command"; ValueType: expandsz; ValueData: """{app}\nw.exe"" ""%V"""; Flags: uninsdeletekey
+
+
+Root: HKCR; Subkey: "Directory\Background\shell\{#MyAppName}"; ValueType: string; ValueName: "Icon"; ValueData: "{app}\nw.exe"; Flags: uninsdeletekey
+Root: HKCR; Subkey: "Directory\Background\shell\{#MyAppName}"; ValueType: string; ValueData: "使用 {#MyAppName} 新建或打开"; Flags: uninsdeletekey
+Root: HKCR; Subkey: "Directory\Background\shell\{#MyAppName}\command"; ValueType: string; ValueData: """{app}\nw.exe"" ""%V"""; Flags: uninsdeletekey
