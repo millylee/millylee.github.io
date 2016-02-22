@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "MiKit"
-#define MyAppVersion "0.1.0"
+#define MyAppVersion "0.2.0"
 #define MyAppPublisher "MillyLee"
 #define MyAppURL "http://milly.me"
 
@@ -22,7 +22,7 @@ DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
 OutputDir=D:\Desktop
-OutputBaseFilename=setup
+OutputBaseFilename=MiKit_{#MyAppVersion}
 SetupIconFile=D:\Desktop\MiKit\guiLib\img\logo.ico
 Compression=lzma
 SolidCompression=yes
